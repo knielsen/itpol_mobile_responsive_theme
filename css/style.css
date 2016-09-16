@@ -329,7 +329,7 @@ b{
 
 #page-wrap{
   max-width: 1024px;
-  margin: 50px auto 20px auto ;
+  margin: 15px auto 15px auto ;
 }
 
 #header_wrapper{
@@ -344,7 +344,7 @@ b{
 
 .top_left{ 
   float: left;
-  margin: 11px 0;
+  margin: 5px 0;
 }
 
 .top_right{
@@ -410,8 +410,8 @@ b{
   float: left;
 }
 
-#main-menu a {
-  padding: 28px 20px;
+#main-menu a, #main-menu span.nolink {
+  padding: 15px 20px;
   display: block;
   text-decoration: none;
   color: #FFF;
@@ -426,7 +426,7 @@ b{
   background: #F45145;
 }
 
-#main-menu li:hover >a{
+#main-menu li:hover >a, #main-menu li:hover >span.nolink {
   color: white;
   background: #F67E75;
 }
@@ -450,7 +450,7 @@ ul.menu{
   text-align: left;
 }
 
-#main-menu li li:hover > a{
+#main-menu li li:hover > a, #main-menu li li:hover >span.nolink {
   background: #3F5364;
 }
 
@@ -489,7 +489,7 @@ ul.menu{
   top: 0;
 }
 
-#main-menu li li a {
+#main-menu li li a, #main-menu li li span.nolink {
   background: #242D36;
   min-width: 162px;
   margin: 0;
@@ -533,11 +533,11 @@ ul.menu{
   margin: 0;
 }
 
-#main-menu ul.menu li li:hover >a{
+#main-menu ul.menu li li:hover >a, #main-menu ul.menu li li:hover >span.nolink {
   background-color: #F45145;
 }
 
-#main-menu li li.expanded >a {
+#main-menu li li.expanded >a, #main-menu li li.expanded >span.nolink {
   padding-right: 30px;
   background-image: url(../images/arrow.png);
   background-repeat: no-repeat;
@@ -1724,7 +1724,7 @@ div.warning{
 
 .top-msg-wrap{
   text-align: center;
-  padding: 1% 0;
+  padding: 8px 0;
   box-shadow: 0 0 40px #000;
   z-index: 11;
   background: #fff;
